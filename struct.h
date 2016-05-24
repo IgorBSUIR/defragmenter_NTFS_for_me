@@ -13,7 +13,5 @@ bool setPointer(struct Disc&);
 
 bool discCPY(struct Disc&, struct Disc&);
 
-void discShow(struct Disc);
-
 bool getHandle(struct Disc&);
 #endif

@@ -20,10 +20,6 @@ bool discCPY(Disc &source, Disc &dest){// копируем информацию о дисках
 	return true;
 }
 
-void discShow(Disc disc){ // выводим в консоль информацию о дисках
-	wprintf(L"%s: ", disc.let);
-}
-
 bool getHandle(Disc& disc){ // создаём HANDLE диска
 	wchar_t diskName[30] = L"\\\\.\\";
 	wcscat(diskName, disc.let);
